@@ -2,7 +2,7 @@
 body {
   font-family: 'Merriweather', sans-serif;
   font-weight: 300;
-  background-color: #A9A9A9; 
+  background-color: #b87333; 
 }
 
 .navbar-brand {
@@ -25,9 +25,23 @@ section {
 }
 
 h2 {
-  color: #333; 
+  color: #fff; 
 }
-
+#about h2 {
+  color: black;
+}
+p {
+  font-weight: bold;
+}
+#menu p{
+  color: #fff;
+}
+#contact p{
+  color: #fff;
+}
+.email{
+  color: #fff;
+}
 /* Адаптація для ширини екрана 320px */
 @media only screen and (max-width: 320px) {
   section {
