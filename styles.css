@@ -1,0 +1,60 @@
+/* Загальні стилі */
+body {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 300;
+  background-color: #A9A9A9; 
+}
+
+.navbar-brand {
+  font-size: 1.5rem; 
+  margin-left: 25px;
+}
+
+.image{
+  width: 100%;
+}
+
+/* Стилі для головного слайдера */
+.carousel-item img {
+  height: 400px; 
+  object-fit: cover; 
+}
+
+section {
+  padding: 50px 0; /* Відступи від країв */
+}
+
+h2 {
+  color: #333; 
+}
+
+/* Адаптація для ширини екрана 320px */
+@media only screen and (max-width: 320px) {
+  section {
+      padding: 30px 0; /* Зменшуємо відступи для кращої видимості на малих екранах */
+  }
+  
+  h2 {
+      font-size: 1.2rem; /* Зменшуємо розмір шрифту заголовків */
+  }
+
+}
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.email-input {
+text-align: left; 
+}
+.input{
+margin: auto; 
+max-width: 300px;
+}
+#contact p {
+  margin: 5px 0;
+}
+.navbar-nav {
+  margin-left: auto;
+}
